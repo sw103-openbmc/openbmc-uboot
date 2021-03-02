@@ -100,3 +100,16 @@ config SYS_CONFIG_NAME
 
 endif
 
+if TARGET_AGC032A
+config SYS_BOARD
+        default "ast-g5"
+
+config SYS_VENDOR
+        default "aspeed"
+
+config SYS_CONFIG_NAME
+        default "agc032a"
+
+endif
+
+

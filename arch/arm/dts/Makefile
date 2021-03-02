@@ -586,6 +586,8 @@ dtb-$(CONFIG_TARGET_FBTTN) += aspeed-g5-fbttn-tpm.dtb
 dtb-$(CONFIG_TARGET_FBWEDGE400) += fbwedge400.dtb
 dtb-$(CONFIG_TARGET_FBCMM) += fbcmm.dtb
 
+dtb-$(CONFIG_TARGET_AGC032A) += agc032a.dtb
+
 targets += $(dtb-y)
 
 # Add any required device tree compiler flags here

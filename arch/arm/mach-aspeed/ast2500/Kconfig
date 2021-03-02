@@ -41,6 +41,9 @@ config TARGET_FBWEDGE400
 config TARGET_FBCMM
 	bool "Support Facebook's Openbmc CMM"
 
+config TARGET_AGC032A
+        bool "Support Delta's Openbmc AGC032A"
+
 source "board/aspeed/evb_ast2500/Kconfig"
 source "board/fb-obmc/Kconfig"
 
