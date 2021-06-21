@@ -729,7 +729,8 @@ dtb-$(CONFIG_TARGET_FB_AST_GEN_5) += \
 	fbcc.dtb \
 	fbwedge400.dtb \
 	fby2.dtb \
-	fby3.dtb
+	fby3.dtb \
+	agc032a.dtb
 
 targets += $(dtb-y)
 
