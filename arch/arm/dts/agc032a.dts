@@ -1,6 +1,6 @@
 /dts-v1/;
 
-#include "ast2500-u-boot.dtsi"
+#include "ast2500-fboss.dtsi"
 
 /*
 Currently the DRAM, UART, WDT and MAC are setup in platform.S
